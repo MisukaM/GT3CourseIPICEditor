@@ -18,3 +18,4 @@ Image pointer - 4 Bytes;
 Image filename - 28 Bytes;
 ````
 The file table then repeats this for every file inside the archive. After the file table, there's padding (56 bytes on GT3's course.ipic) and then it begins with the image data itself. Each image data begins with a 4-byte magic "ipum". After the magic, there's another 4-byte value seemingly for the datasize of the image file, but it usually doesn't carry until the beginning of the next file. This isn't very useful to know though as the tool doesn't need to know it.
+Also included in the files is the original course.ipic from the PAL version of GT3, just for easy access for testing.
