@@ -6,7 +6,7 @@ The ability to edit the file is crucial, as if new courses are added to Arcade m
 Usage:
 ````
 Building an archive:
-GT3CourseIPICEditor.exe or simply running the executable.
+GT3CourseIPICEditor.exe or simply running the executable. The utility will assume the extracted image data exists in a folder in the same directory as the executable.
 
 Extracting an archive:
 GT3CourseIPICEditor.exe course.ipic (path to file)
