@@ -9,5 +9,5 @@ Building an archive:
 GT3CourseIPICEditor.exe or simply running the executable.
 
 Extracting an archive:
-GT3CourseIPICEditor.exe course.ipic
+GT3CourseIPICEditor.exe course.ipic (path to file)
 ````
